@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: sporting;
+    src: url(font/reguler.otf);
+    
+}
+
+@font-face {
+    font-family: SFUI;
+    src: url(font/SFUI.ttf);
+
+}   
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sporting;
+}
+
+p{
+    font-family: SFUI;
+}
+
+li{
+    font-family: SFUI;
+}
+
+body{
+    background-color: #FFF6E5;
+}
+
+.container{
+    width: 1200px;
+    margin:0 auto;
+    padding-inline: 60px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: black;
+}
+
+.navbar{
+    margin-top: 20px;
+}
+
+
+.nav-items{
+    gap: 40px;
+}
+
+.btn{
+    padding: 12px 25px;
+    background-color: #C5B1FF;
+    border:1px solid black;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    box-shadow: 5px 5px #37246F;
+}
+
+.hero-section{
+    margin-top: 60px;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.hero-section h1{
+    font-size: 3rem;
+}
+
+.email-optin{
+    margin-block: 20px;
+    box-shadow: 5px 5px #37246F;
+}
+
+.email-optin input{
+    padding: 12px 25px;
+    border: 1px  solid black;
+    border-right: none;
+}
+
+#partners-heading{
+    font-family: SFUI;
+}
+
+.partners{
+    flex-direction: column;
+    gap:15px;
+
+}
+
+.partners-logo{
+    align-items: center;
+    gap: 20px;
+
+}
+
+.img-1{
+    width: 250px;
+}
+.img-2{
+    width: 250px;
+}
+
+.counter{
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: 20%;
+    text-align: center;
+    border: 1px solid #C8BBA3;
+}
+
+.counter-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter-section{
+    width: 100%;
+    padding-block: 40px;
+    background:linear-gradient(52deg, rgba(255,238,197,1) 0%, rgba(255,255,255,1) 100%);
+}
